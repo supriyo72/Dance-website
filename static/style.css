@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 12px;
+    color: rgb(247, 243, 243);
+    font-family: fantasy;
+    font-size: 30px;
+    margin-right: 55px;
+}
+#logo img{
+    height: 50px;
+}
+
+#navbar{
+    background-color: #dd5050;
+    padding: 15px 14px;
+}
+.navedit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 25px;
+    font-family: fantasy;
+    color: wheat;
+    font-size: 23px;
+}
+#navbar li a:hover{
+    color: rgb(2, 1, 1);
+    font-size: 20px;
+}
+#introsection{
+    /* background: center / contain no-repeat url("/static/dbg.jpg"); */
+    background: center / cover no-repeat url("/static/dbg.jpg");
+    height: 420px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 45px;
+    padding-bottom: 56px;
+    opacity: 0.8;
+}
+#introsection div.introedit{
+    /* font-size: 32px; */
+    padding: 3px;
+}
+
+#missionsection{
+    /* height: 100vh; */
+    margin: auto;
+    width: 100%;
+    font-size: 30px;
+    background-color: #f6ebb6;
+    margin-top: -15px;
+}
+#missionsection h1{
+    font-family: fantasy;
+    text-align: center;
+    padding-top: 10px;
+    /* font-size: 36px; */
+    /* margin: auto; */
+    color: black;
+
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 32%;
+    height: 290px;
+    margin: 19px 23px;
+    display: inline-block;
+    background-color: #faefce;
+    
+
+}
+.card h3{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    color: brown;
+    font-size: 19px;
+    /* padding: 4px 15px; */
+    margin: 12px;
+    
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    height: 222px;
+    background-color: #f3dcbf;
+    
+}
+.card-img{
+    height: 120px;
+    padding: 3px 8px;
+    margin: 2px 6px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0px 3px;
+}
+.card-content p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: cursive;
+}
+#sponsorsection{
+    height: 300px;
+    background-color: #f2e2ba;
+    margin-top: -15px;
+}
+#sponsorsection h2{
+    font-family: fantasy;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 36px;
+}
+#sponsors{
+    height: 150px;
+    max-width: 1200px;
+    margin: auto;
+}
+.spIMG{
+    height: 80%;
+    margin: 60px;
+}
+#footer{
+    height: 255px;
+    background-color: #3d3b3b;
+    color: #af8858;
+    font-size: 20px;
+    margin: 0px 0px;
+    display: block;
+}
+.allfooter{
+    font-size: 14px;
+    color: #a19d99;
+    display: flex;
+    flex-direction: row;
+    width:52%;
+    margin: auto;
+    height: 86%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.footeredit{
+    width: 247px;
+    height: 144px;
+    margin: 56px 99px;
+}
+.g1{
+    font-size: 17px;
+    margin: 12px
+}
+.no1{
+    font-size:17px;
+    margin: 12px;
+}
+.footp{
+    font-size: 17px;
+    font-style: revert;
+    margin: 22px;
+}
+h2{
+    font-size: 20px;
+}
+.cr{
+    height: 13%;
+    width: 29%;
+    margin: auto;
+}
+.cardb{
+    /* background-color: brown; */
+    display: flex;
+    margin: auto;
+    margin-top: 85px;
+}

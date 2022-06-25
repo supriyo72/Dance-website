@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    title Supu Animation Academy
+    style
+      include ../static/style.css
+  body
+    //- nav#navbar.top
+    //- |    this
+    //- nav#navbar.top.firstclass.secondclass
+    //- |   this
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/c.png")
+                | SAI
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Contact us]
+            li #[a(href="/") services]
+            li #[a(href="/") Class info]
+
+    section#introsection
+        div   Welcome to Supriyo Animation's institute
+        div.introedit   Eat Sleep Animate Repeat
+    section#missionsection
+        h2    Our Mission!
+        div.card
+            h3 Animate Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p We will focus on every basic point of Animations to make you perfect.
+
+        div.card
+            h3 Animate the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+                div.card-content
+                    p We won't force you to do you do the way you like.
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                div.card-content
+                    p We have experienced faculties to excel you.
+    section#sponsorsection
+        h2    Our Sponsors!
+              div#sponsors
+                  img(src="/static/img/f.jpg", alt="sponsor image",class="spIMG")
+                  img(src="/static/img/g.jpg", alt="sponsor image",class="spIMG")
+                  img(src="/static/img/in.jpg", alt="sponsor image",class="spIMG")
+                  img(src="/static/img/ap.jpg", alt="sponsor image",class="spIMG")
+    footer#footer
+        |  copyright @ 2021 Supu-Animation-Academy.com  |All rights reserved
+
+
+    script
+      include ../static/app.js

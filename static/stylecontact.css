@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 15px 0px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.myinput{
+    width: 560px;
+    margin: 5px;
+    padding: 7px;
+    border: 2px solid #af1010;
+    border-radius: 9px;
+    font-size: 16px;
+    outline: none;
+}
+.btn{
+    padding: 10px 16px;
+    margin: 10px 10px;
+    border: 2px solid #951414;
+    background: #feb8b8;
+    color: #2c0000;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.container{
+    background:center / cover no-repeat url("/static/img/contact.jpg");
+    min-height: 80vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  */
+    
+}
+.container h1{
+    font-family: initial;
+    font-size: 33px;
+    margin-top: 0px;
+    padding: 10px 0px;
+    color: white;
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+}

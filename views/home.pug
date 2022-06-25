@@ -1,0 +1,43 @@
+extends base.pug
+block scripts
+    script(src='/static/app.js')
+block style
+    style
+        include ../static/style.css
+block content
+    section#introsection
+        div.introtitle Welcome to Supriyo Animation's institute
+        div.introedit Eat Sleep Animate Repeat
+    section#missionsection
+        h1  Our Mission!
+         div.cardb
+            div.card
+                h3 Animate Perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/2.png")
+                    div.card-content
+                        p We will focus on every basic point of Animations to make you perfect.
+            div.card
+                h3 Animate the way you like
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/1.png")
+                    div.card-content
+                        p We will allow to discover your own ideas and implementation.
+            div.card
+                h3 Expert teaching
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/3.png")
+                    div.card-content
+                        p We have experienced Teaching faculties to guide you on every step of your learning.
+        
+        
+    section#sponsorsection
+        h2 Our Sponsors!
+            div#sponsors
+                    img(src="/static/img/f.jpg", alt="sponsor image",class="spIMG")
+                    img(src="/static/img/g.jpg", alt="sponsor image",class="spIMG")
+                    img(src="/static/img/in.jpg", alt="sponsor image",class="spIMG")
+                    img(src="/static/img/ap.jpg", alt="sponsor image",class="spIMG")

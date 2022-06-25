@@ -1,0 +1,57 @@
+.navedit{
+    display: flex;
+    margin: auto;
+    width: 51%;
+}
+#navbar ul{
+    padding:0px 10px;
+}
+
+#navbar ul li a{
+    font-size: 16px;
+}
+/* #introsection div.introdeit{
+    font-size: 10px;
+} */
+#introsection div.introtitle{
+    font-size: 35px;
+}
+#introsection div.introedit{
+    font-size: 28px;
+}
+/* *{
+    background-color: yellow;
+} */
+ /* .cardb{
+    width: 134%;
+    flex-direction: column;
+} */
+#missionsection{
+    height:1100px;
+}
+.cardb{
+    flex-direction: column;
+}
+#missionsection div.card{
+    margin: auto;
+    width: 45%;
+    margin-bottom: 20px;
+}
+#missionsection h1{
+    font-size: 20px ;
+}
+#footer div.cr{
+    width: 56%;
+    font-size: 19px;
+    margin: auto;
+
+}
+/* .para{
+    margin-top:296px;
+} */
+.editc{
+    padding-top: 295px
+}
+.edita{
+    padding-top: 320px;
+}
